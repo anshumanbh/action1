@@ -1,4 +1,4 @@
-FROM gcr.io/plexiform-pilot-210305/bountymachine/apiworker
+FROM gcr.io/github-images/test
 
 RUN echo $GOPATH
 
