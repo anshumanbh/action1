@@ -1,4 +1,4 @@
-FROM gcr.io/github-actions-images/action-runner
+FROM gcr.io/github-images/action-runner
 
 RUN echo $GOPATH
 
