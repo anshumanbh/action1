@@ -1,4 +1,4 @@
-FROM gcr.io/cloud-builders/docker:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FROM gcr.io/cloud-builders/dockere3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 RUN ls -lh /
 
