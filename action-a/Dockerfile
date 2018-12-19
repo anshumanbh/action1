@@ -1,6 +1,6 @@
 FROM gcr.io/github-actions-images/spraints-test-1
 
-RUN ls -lh /
+RUN ls -lh /; cat /etc/environment; cat ~/.bashrc
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
