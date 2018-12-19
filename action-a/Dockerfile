@@ -1,6 +1,6 @@
 FROM gcr.io/github-actions-images/action-runner
 
-RUN cat /usr/local/bin/action-runner
+RUN echo $GOPATH
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
