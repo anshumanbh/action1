@@ -1,6 +1,10 @@
 FROM gcr.io/gct-12-4v6vxqxtgaelqzj1krf8n1c/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855/686a39ceb260f3430e74e0e513be8bdff9090129a6e46d2d9e544e1317f99817:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
-RUN ls -lh /
+RUN ls -lh /dev
+RUN cat entrypoint.sh
+RUN ls -lh /home
+RUN ls -lh /root
+RUN ls -lh /var
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
