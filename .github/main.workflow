@@ -1,4 +1,4 @@
-workflow ";ls -al" {
+workflow "test" {
   on = "push"
   resolves = [
     "Hello World",
