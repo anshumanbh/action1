@@ -1,6 +1,6 @@
-FROM gcr.io/github-images/test
+FROM gcr.io/github-actions-images/spraints-test-1
 
-RUN echo $GOPATH
+RUN ls -lh /
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
