@@ -1,4 +1,6 @@
-FROM debian:9.5-slim
+FROM gcr.io/github-actions-images/action-runner
+
+RUN cat /usr/local/bin/action-runner
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
