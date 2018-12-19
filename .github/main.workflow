@@ -1,8 +1,15 @@
-workflow ";ls -al" {
+workflow "test" {
   on = "push"
-  resolves = ["\"><"]
+  resolves = [
+    "\"><",
+    "Hello World",
+  ]
 }
 
 action "\"><" {
+  uses = "./action-a"
+}
+
+action "Hello World" {
   uses = "./action-a"
 }
