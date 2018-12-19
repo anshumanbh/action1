@@ -2,6 +2,7 @@ workflow "test" {
   on = "push"
   resolves = [
     "Hello World",
+    "filter-to-pr-open-synced",
   ]
 }
 
